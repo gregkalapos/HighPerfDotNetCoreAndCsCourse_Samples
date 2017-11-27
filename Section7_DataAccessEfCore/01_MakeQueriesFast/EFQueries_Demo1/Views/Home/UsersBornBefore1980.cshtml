@@ -1,0 +1,11 @@
+﻿@model List<String>
+<p>Users born before 1980</p>
+
+
+   @foreach (var item in Model)
+{
+       <ul>
+           <li>@item</li>
+          
+       </ul>
+   }

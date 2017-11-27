@@ -1,0 +1,26 @@
+﻿@model List<ValueInEur>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <br />
+    <p>Current portfolio</p>
+
+    @{
+        var sum = 0m;
+    }
+
+    @foreach (var item in Model) {
+  
+        sum += item.ValueEur;
+   
+    <ul>
+        <li>@item.CurrencyName:  @item.ValueEur.ToString("F") = @item.ValueInOrigCurrency.ToString("F") EUR </li>
+    </ul>
+    }
+
+    <p>Sum: @sum.ToString("F") EUR</p>
+
+</div>

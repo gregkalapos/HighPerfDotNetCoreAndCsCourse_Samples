@@ -1,0 +1,18 @@
+﻿@model List<UserWithComments>
+<p>Users born before 1980 - with comments</p>
+
+
+@foreach (var item in Model)
+{
+    <ul>
+        <li>
+            <p>user: @item.UserName</p>
+            <p>Comments: </p>
+            @foreach (var comment in item.Comments)
+            {
+                <p>@comment</p>
+            }
+
+        </li>
+    </ul>
+}

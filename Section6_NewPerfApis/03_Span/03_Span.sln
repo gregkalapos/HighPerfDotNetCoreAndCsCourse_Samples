@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringParsingStringVsSpan", "StringParsingStringVsSpan\StringParsingStringVsSpan.csproj", "{B5F33028-78DA-44E2-BCB1-2A8FFB7BC08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5F33028-78DA-44E2-BCB1-2A8FFB7BC08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F33028-78DA-44E2-BCB1-2A8FFB7BC08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F33028-78DA-44E2-BCB1-2A8FFB7BC08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F33028-78DA-44E2-BCB1-2A8FFB7BC08D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73725731-22CF-4C81-AF80-A605D17F6D60}
+	EndGlobalSection
+EndGlobal

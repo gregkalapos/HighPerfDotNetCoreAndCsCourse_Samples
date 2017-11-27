@@ -1,0 +1,16 @@
+﻿@model List<StockIndexData>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<p></p>
+
+<ul>
+    @foreach (var index in Model)
+    {
+        <li>
+            <a asp-controller="Home" asp-action="StocksInIndex" asp-route-id="@index.Symbol">@Html.DisplayFor(n => index.Name) </a>
+       </li>
+        <p></p>
+    }
+</ul>
