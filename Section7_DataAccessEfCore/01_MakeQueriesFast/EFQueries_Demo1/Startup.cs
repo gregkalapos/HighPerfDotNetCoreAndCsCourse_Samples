@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using EFQueries_Demo1.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace EFQueries_Demo1
 {
@@ -23,6 +24,8 @@ namespace EFQueries_Demo1
         public void ConfigureServices(IServiceCollection services)
         {
             SampleDataContext dbContext = new SampleDataContext();
+            //dbContext.Database.Migrate();
+
             if(dbContext.Users.Count() == 0)
             {
                 DataCreator.FillDb(dbContext, 100_000, 1_000_000);

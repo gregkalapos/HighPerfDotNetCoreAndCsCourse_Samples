@@ -61,7 +61,7 @@ namespace SimpleSampleStockAppFrontend.Controllers
         private async Task<CurrencyResult> GetRates()
         {
             HttpClient httpClient = new HttpClient();
-            var response = await httpClient.GetAsync("http://api.fixer.io/latest");
+            var response = await httpClient.GetAsync("http://api.exchangeratesapi.io/latest");
             var result = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<CurrencyResult>(result);
         }

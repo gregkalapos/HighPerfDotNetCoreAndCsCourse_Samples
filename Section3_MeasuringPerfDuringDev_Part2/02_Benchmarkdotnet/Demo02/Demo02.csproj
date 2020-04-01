@@ -14,4 +14,10 @@
     <ProjectReference Include="..\RsiLibrary\RsiLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="MSFT.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
