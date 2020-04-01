@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo1_ListVsLinkedList_Iterate", "Demo1_ListVsLinkedListIterate\Demo1_ListVsLinkedList_Iterate.csproj", "{AED19D69-931E-455C-8FE6-DEC9E0337531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo1_ListVsLinkedList_Iterate", "Demo1_ListVsLinkedList_Iterate\Demo1_ListVsLinkedList_Iterate.csproj", "{AED19D69-931E-455C-8FE6-DEC9E0337531}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo2_ListVsLinkedList_Insert", "Demo2_ListVsLinkedList_Insert\Demo2_ListVsLinkedList_Insert.csproj", "{1BEFD631-F685-4A6C-8052-EFE7FBDDE462}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo4_DictionaryVsList_BadHashCode", "Demo4_DictionaryVsList_BadHashCode\Demo4_DictionaryVsList_BadHashCode.csproj", "{04AD040C-8BD9-434C-A666-E45288A4A907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo4_ListVsHashSet_BadHashCode", "Demo4_ListVsHashSet_BadHashCode\Demo4_ListVsHashSet_BadHashCode.csproj", "{04AD040C-8BD9-434C-A666-E45288A4A907}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo5_SortedSetVsHashSet_SortedItems", "Demo5_SortedSetVsHashSet_SortedItems\Demo5_SortedSetVsHashSet_SortedItems.csproj", "{45A1B271-EEAD-42DD-A4A7-EAB94FC76CF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo3_ListVsHashSetLookup", "Demo3_ListVsDictionaryLookup\Demo3_ListVsHashSetLookup.csproj", "{F797D50D-A736-44FB-BBEF-39A5812AE94F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo3_ListVsHashSet_Lookup", "Demo3_ListVsHashSet_Lookup\Demo3_ListVsHashSet_Lookup.csproj", "{F797D50D-A736-44FB-BBEF-39A5812AE94F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
